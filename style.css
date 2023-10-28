@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #112D4E;
+    background-color: #f0f3ff;
+}
+
+div {padding: 30px 0}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.search input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #f2efff;
+    border-radius: 5px;
+    outline:  none;
+    background: #f6f9ff;
+    color: #9E9C9C;
+}
+
+.search button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 42px;
+    border: none;
+    background: #dfeaff;
+    border-radius: 0 5px 5px 0;
+}
+
+.search .res_btn:before{
+    display: inline;
+    position: relative;
+    right: 45px;
+    width: 100px;
+    height: 52px;
+    background: none;
+    border-radius: 0 0 0 0;
+    content: "\00d7"; /* This will render the 'X' */
+}
+
+.search .btn:before {
+    font-size: 16px;
+    color: #7d68b1;
+}
+
+#book_block div{
+    display: block;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #bcdaff;
+}
+
+#book_block div h3{
+    text-align: center;
+}
+
+#book_block div p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#book_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading img {
+    height: 65px;
+}
+
+.loading {
+    text-align: center;
+}
+
+.not_found_space {
+    display: block;
+    color: #112D4E;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #112D4E;
+}
